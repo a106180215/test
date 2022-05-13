@@ -1,0 +1,54 @@
+/*预留*/
+.diaryWrap {
+	padding: 20px;
+	float:left;
+}
+.diaryWrap tr:nth-child(even) {
+	background-color: rgba(255, 255, 255, .8);
+}
+.diaryWrap tr td:nth-child(1) {
+	width: 70px;
+}
+.diaryWrap tr td:nth-child(2){
+	width: 20px; 
+	color: blue; 
+	text-align: right; 
+	font-size: 14px;
+}	
+/*添加的*/
+.diaryWrap .writeBtn {
+	width: 100px; 
+	height: 30px; 
+	float: left; 
+	background: url(../imgs/btn_bg.png); 
+	background-size: cover; 
+	font-size: 15px; 
+	color: orange; 
+	font-weight: bold; 
+	text-align: center; 
+	line-height: 25px; 
+	margin-right: 20px;
+}
+
+.diaryWrap table {
+	width: 480px; 
+	margin-top: 50px;
+	border-radius:10px;
+	box-shadow: 2px 2px 2px #888888,2px -2px 2px #888888,-2px -2px 2px #888888,-2px 2px 2px #888888
+}
+.diaryWrap td {
+	height: 20px; 
+	padding: 10px;
+}
+.diaryWrap td span {
+	color: orange;
+}
+.diaryImg{
+	float:left;
+	width:200px;
+	height:400px;
+	background-image:url(../imgs/MIdairy.png);
+	background-size:contain;
+	background-repeat:no-repeat;
+	padding:30px;
+}
